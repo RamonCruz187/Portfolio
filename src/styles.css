@@ -126,12 +126,16 @@ div button {
 
 .acerca-de i {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     padding-top: 20px;
 }
 
 .acercaTexto {
     min-width: 400px;
+}
+
+.acercaTexto p {
+    margin-left: 20px;
 }
 
 .experiencia {
@@ -164,9 +168,19 @@ div button {
     max-width: 120px;
 }
 
-.logo-exp img {
+.logo-exp{
+    display: flex;
+}
 
-    max-width: 100px;
+.logo-exp img {
+    display: flex;
+    max-width: 75%;
+    justify-content: center;
+    
+}
+
+.experiencia__imagen{
+    margin: auto;
 }
 
 .experiencia i {
