@@ -219,6 +219,45 @@ div button {
     justify-content: space-between;
 }
 
+.hard-skills ul li{
+    margin-top: 10px;
+}
+
+.hard-skills__texto p{
+    margin-left: 20px;
+    font-size: 20px;
+    
+}
+
+.hard-skills__icono img{
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.soft-skills__icono{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.soft-skills__icono img{
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 75px;
+    margin-bottom: 20px;
+}
+
+.soft-skills ul{
+    margin-top: 20px;
+    list-style-type: disc;
+    list-style-position: outside;
+}
+
+.soft-skills ul li {
+    margin-left: 50px;
+}
+
 .title {
     display: flex;
     flex-direction: row;
@@ -226,11 +265,6 @@ div button {
     padding-bottom: 20px;
 }
 
-.skill-barra {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
 
 .edit {
     display: inherit;
@@ -249,14 +283,38 @@ div button {
     padding: 25px;
 }
 
+.proyectos-contenido-row{
+    display: flex;
+}
+
+.proyecto__imagen{
+    width: 250px;
+}
+
+.proyecto__imagen img{
+    box-sizing: border-box;
+    
+    width: 100%;
+    display: flex;
+    margin: 20px;
+}
+
+
+
 .proyectos-row {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
+.proyectos-item{
+    padding: 20px;
+    margin-left: 25px;
+}
+
 .proyectos-item h3 {
     color: rgb(16, 16, 145);
+    
 }
 
 .title {
