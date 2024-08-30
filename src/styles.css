@@ -368,6 +368,17 @@ div button {
 }
 
 @media (max-width: 576px){
+    .acerca-de p{
+        font-size: 18px;
+    }
+    .exp{
+        display:block;
+    }
+
+    .experiencia__imagen{
+        width: 30%;
+    }
+
     #foto{
         width: 150px;
     }
@@ -383,6 +394,10 @@ div button {
     .proyecto__imagen{
         display: flex;
         align-items: center;
+    }
+
+    .modal-body img{
+        width: 100%;
     }
 }
 
