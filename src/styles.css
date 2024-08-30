@@ -367,3 +367,22 @@ div button {
     }
 }
 
+@media (max-width: 576px){
+    #foto{
+        width: 150px;
+    }
+
+    .proyectos-contenido-row{
+        display: block;
+    }
+
+    .proyectos-item p a{
+        font-size: 16px;
+    }
+
+    .proyecto__imagen{
+        display: flex;
+        align-items: center;
+    }
+}
+

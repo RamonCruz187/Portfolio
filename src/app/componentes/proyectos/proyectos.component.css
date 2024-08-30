@@ -1,0 +1,14 @@
+.footer{
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 40%, rgba(255, 255, 255, 0) 90%), /* Gradiente con un cambio más gradual */
+                url('../../../assets/imagenes/1718909139680.jpeg');
+    
+   
+    
+    background-size: cover;
+    background-position: center;
+}
+
+a{
+    color: black;
+}
+
